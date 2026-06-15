@@ -4,7 +4,7 @@ import SectionHeading from "../SectionHeading";
 const ROLES = [
   {
     company: "Bullion",
-    role: "Software Developer",
+    role: "Software Engineer & Operations Lead",
     period: "Aug 2025 — Present",
     location: "USA · Remote",
     points: [
@@ -26,23 +26,23 @@ const ROLES = [
   },
   {
     company: "Payfrontier LTD",
-    role: "Senior Developer / CTO",
+    role: "CTO",
     period: "Jan 2019 — 2023",
     location: "Abuja, Nigeria · Remote & Onsite",
     points: [
-      "Architected a full-stack fintech platform serving 20,000+ active customers.",
-      "Designed a microservices ecosystem across web, mobile, and administrative systems.",
+      "Built the company's payment infrastructure from the ground up to 20,000+ active customers.",
+      "Spun out Fybapay (agency banking & wallets), which grew into Volla — a payment platform ecosystem.",
       "Led engineering vision, aligning business growth with technical architecture.",
     ],
   },
   {
     company: "Thrive Agric LTD",
-    role: "Software Developer",
+    role: "VP of Engineering",
     period: "Feb 2018 — 2022",
     location: "Abuja, Nigeria · Remote & Onsite",
     points: [
-      "Built distributed APIs powering crowdfunding and payment platforms for 500,000+ monthly users.",
-      "Designed microservices for capital allocation, user onboarding, and transaction processing.",
+      "Led the payments and crowdfunding platform that helped 100,000+ farmers access $100M+ in financing.",
+      "Scaled distributed microservices for capital allocation, onboarding, and transaction processing to 500,000+ monthly users.",
       "Managed, monitored, and trained engineers across technology teams.",
     ],
   },

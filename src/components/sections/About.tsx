@@ -27,7 +27,7 @@ const SKILLS = [
 const STATS = [
   { value: "7+", label: "Years experience" },
   { value: "5M+", label: "Monthly active users served" },
-  { value: "9+", label: "Fintech products shipped" },
+  { value: "$100M+", label: "Financing enabled at Thrive Agric" },
 ];
 
 export default function About() {
@@ -43,21 +43,30 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I'm a Senior Software Engineer with{" "}
-            <span className="text-foreground">over 7 years</span> developing and
-            scaling end-to-end, secure full-stack applications. I architect
-            distributed microservices and platforms across{" "}
+            I've spent the last{" "}
+            <span className="text-foreground">7 years</span> building financial
+            platforms across{" "}
             <span className="text-foreground">
-              fintech, agritech, e-commerce, and public transport
+              payments, banking, lending, pensions, and crowdfunding
             </span>{" "}
-            — systems that have served{" "}
-            <span className="text-foreground">5M+ monthly active users</span>.
+            — and the systems behind commerce, agriculture, and public transport.
+            I've held the technical lead, from{" "}
+            <span className="text-foreground">CTO and VP of Engineering</span> to
+            Engineering Manager and Platform Lead.
+          </p>
+          <p>
+            I architect distributed microservices and the infrastructure that
+            keeps money moving. At Thrive Agric I led the payments and
+            crowdfunding platform that helped{" "}
+            <span className="text-foreground">100,000+ farmers</span> access
+            $100M+ in financing; at Payfrontier I built payment infrastructure
+            from the ground up to 20,000+ customers.
           </p>
           <p>
             I care about backend discipline: enforcing API contracts, defining
             clean domain boundaries, and preventing architectural drift through
-            structured design governance. I've led and mentored cross-functional
-            teams across remote and distributed settings.
+            structured design governance — while leading and mentoring
+            cross-functional teams across distributed settings.
           </p>
         </motion.div>
 
