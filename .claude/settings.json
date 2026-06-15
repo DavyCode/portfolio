@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /Users/azemohpaul/Workspace/Me/portfolio *)",
+      "Bash(npm install *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
+      "Bash(nohup npm run dev)",
+      "Read(//tmp/**)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)"
+    ],
+    "additionalDirectories": [
+      "/Users/azemohpaul/Workspace/Me/portfolio/src/components"
+    ]
+  }
+}

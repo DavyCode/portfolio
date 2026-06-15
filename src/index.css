@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Dark by default — this is a dark-first design. */
+    --background: 240 6% 4%;
+    --foreground: 0 0% 98%;
+    --muted: 240 4% 9%;
+    --muted-foreground: 240 5% 58%;
+    --accent: 240 4% 14%;
+    --border: 240 4% 14%;
+    --brand: 142 70% 45%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background-image: radial-gradient(
+      hsl(240 4% 16% / 0.4) 1px,
+      transparent 1px
+    );
+    background-size: 28px 28px;
+  }
+
+  ::selection {
+    @apply bg-foreground text-background;
+  }
+}
+
+@layer components {
+  /* Plus-corner marks used on framed blocks */
+  .corner {
+    @apply absolute h-5 w-5 text-foreground/30;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-accent rounded-full;
+}
