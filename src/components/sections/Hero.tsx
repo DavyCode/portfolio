@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { motion } from "framer-motion";
-import { ArrowDown, ArrowUpRight, Plus } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Download, Plus } from "lucide-react";
 import { renderCanvas } from "../../lib/canvas";
 import RotatingText from "../RotatingText";
 
@@ -101,6 +101,17 @@ export default function Hero() {
           className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:bg-accent"
         >
           Get in touch
+        </a>
+        <a
+          href="/Paul-Azemoh-Resume.pdf"
+          download
+          className="group inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:bg-accent"
+        >
+          Download Resume
+          <Download
+            size={16}
+            className="transition-transform group-hover:translate-y-0.5"
+          />
         </a>
       </motion.div>
 

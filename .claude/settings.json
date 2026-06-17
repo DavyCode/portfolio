@@ -6,10 +6,16 @@
       "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/)",
       "Bash(nohup npm run dev)",
       "Read(//tmp/**)",
-      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)"
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:5173/)",
+      "Read(//Users/azemohpaul/Workspace/Me/**)",
+      "Read(//Users/azemohpaul/Downloads/**)",
+      "Bash(cp ~/Downloads/\"Paul Azemoh - Software Engineer - Resume New.pdf\" /Users/azemohpaul/Workspace/Me/portfolio/public/Paul-Azemoh-Resume.pdf && ls -la /Users/azemohpaul/Workspace/Me/portfolio/public/)",
+      "Bash(npm run dev > /tmp/vite-dev.log 2>&1 & *)"
     ],
     "additionalDirectories": [
-      "/Users/azemohpaul/Workspace/Me/portfolio/src/components"
+      "/Users/azemohpaul/Workspace/Me/portfolio/src/components",
+      "/Users/azemohpaul/Downloads",
+      "/tmp"
     ]
   }
 }

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Download } from "lucide-react";
 
 const LINKS = [
   { label: "About", href: "#about" },
@@ -33,12 +34,22 @@ export default function Navbar() {
             </a>
           ))}
         </div>
-        <a
-          href="#contact"
-          className="rounded-full bg-foreground px-4 py-1.5 text-sm font-medium text-background transition-transform hover:scale-[1.03]"
-        >
-          Let's talk
-        </a>
+        <div className="flex items-center gap-2">
+          <a
+            href="/Paul-Azemoh-Resume.pdf"
+            download
+            className="hidden items-center gap-1.5 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground sm:inline-flex"
+          >
+            <Download size={14} />
+            Resume
+          </a>
+          <a
+            href="#contact"
+            className="rounded-full bg-foreground px-4 py-1.5 text-sm font-medium text-background transition-transform hover:scale-[1.03]"
+          >
+            Let's talk
+          </a>
+        </div>
       </nav>
     </motion.header>
   );
