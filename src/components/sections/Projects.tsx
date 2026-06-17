@@ -51,7 +51,7 @@ const PROJECTS: {
   },
   {
     title: "Bullion",
-    role: "Software Engineer & Operations Lead",
+    role: "Software Engineer",
     description:
       "Global banking platform for startups. Led production financial services and kept the platform stable as it scaled.",
     tags: ["Banking", "Reliability", "Ops"],

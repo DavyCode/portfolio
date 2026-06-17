@@ -4,7 +4,7 @@ import SectionHeading from "../SectionHeading";
 const ROLES = [
   {
     company: "Bullion",
-    role: "Software Engineer & Operations Lead",
+    role: "Software Engineer",
     period: "Aug 2025 — Present",
     location: "USA · Remote",
     points: [
