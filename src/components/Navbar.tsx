@@ -36,7 +36,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center gap-2">
           <a
-            href="/Paul-Azemoh-Resume.pdf"
+            href="/Paul-David-Azemoh-CV-Backend-Engineer.pdf"
             download
             className="hidden items-center gap-1.5 rounded-full border border-border px-4 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-accent hover:text-foreground sm:inline-flex"
           >

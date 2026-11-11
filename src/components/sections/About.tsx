@@ -2,17 +2,20 @@ import { motion } from "framer-motion";
 import SectionHeading from "../SectionHeading";
 
 const SKILLS = [
-  "JavaScript",
+  "Node.js",
   "TypeScript",
   "Java",
-  "Node.js",
+  "Spring Boot",
+  "Python",
+  "Django",
+  "Rust",
   "Express.js",
-  "React.js",
-  "Redux",
-  "React Native",
+  "REST",
   "GraphQL",
+  "Kafka",
   "PostgreSQL",
   "MongoDB",
+  "MySQL",
   "Redis",
   "AWS",
   "GCP",
@@ -20,14 +23,15 @@ const SKILLS = [
   "Kubernetes",
   "Terraform",
   "CI/CD",
+  "TDD",
   "Microservices",
   "Domain-Driven Design",
 ];
 
 const STATS = [
-  { value: "7+", label: "Years experience" },
-  { value: "5M+", label: "Monthly active users served" },
-  { value: "$100M+", label: "Financing enabled at Thrive Agric" },
+  { value: "11+", label: "Years experience" },
+  { value: "500K+", label: "Monthly users served" },
+  { value: "200K", label: "Requests in 3.0s on my Rust serving engine" },
 ];
 
 export default function About() {
@@ -43,30 +47,13 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I've spent the last{" "}
-            <span className="text-foreground">7 years</span> building financial
-            platforms across{" "}
-            <span className="text-foreground">
-              payments, banking, lending, pensions, and crowdfunding
-            </span>{" "}
-            — and the systems behind commerce, agriculture, and public transport.
-            I've held the technical lead, from{" "}
-            <span className="text-foreground">CTO and VP of Engineering</span> to
-            Engineering Manager and Platform Lead.
+            I'm a backend engineer with <span className="text-foreground">11+ years</span> designing and running <span className="text-foreground">APIs, microservices and distributed systems</span> for fintech, agritech and public sector platforms — including services handling 500,000+ monthly users.
           </p>
           <p>
-            I architect distributed microservices and the infrastructure that
-            keeps money moving. At Thrive Agric I led the payments and
-            crowdfunding platform that helped{" "}
-            <span className="text-foreground">100,000+ farmers</span> access
-            $100M+ in financing; at Payfrontier I built payment infrastructure
-            from the ground up to 20,000+ customers.
+            Today I build services for ByteX's global <span className="text-foreground">payment and settlement infrastructure</span>: cross-border collections, payouts, FX, routing and settlement across Canada, the United States, India and Africa. Most recently I also built a Rust LLM serving engine with continuous batching and prefix caching.
           </p>
           <p>
-            I care about backend discipline: enforcing API contracts, defining
-            clean domain boundaries, and preventing architectural drift through
-            structured design governance — while leading and mentoring
-            cross-functional teams across distributed settings.
+            I work in Node.js, TypeScript, Java, Python and Rust, with PostgreSQL, MongoDB, Redis and Kafka, deployed on AWS and GCP through Docker, Kubernetes and CI/CD. I care about <span className="text-foreground">performance, reliability and clean service boundaries</span>.
           </p>
         </motion.div>
 
