@@ -2,32 +2,35 @@ import { motion } from "framer-motion";
 import SectionHeading from "../SectionHeading";
 
 const SKILLS = [
-  "JavaScript",
-  "TypeScript",
-  "Java",
   "Node.js",
+  "TypeScript",
+  "JavaScript",
+  "Java",
+  "Python",
+  "Rust",
+  "Spring Boot",
   "Express.js",
   "React.js",
-  "Redux",
-  "React Native",
-  "GraphQL",
   "PostgreSQL",
   "MongoDB",
   "Redis",
+  "Kafka",
+  "GraphQL",
   "AWS",
   "GCP",
   "Docker",
   "Kubernetes",
   "Terraform",
   "CI/CD",
+  "AI Inference",
   "Microservices",
   "Domain-Driven Design",
 ];
 
 const STATS = [
-  { value: "7+", label: "Years experience" },
-  { value: "5M+", label: "Monthly active users served" },
-  { value: "$100M+", label: "Financing enabled at Thrive Agric" },
+  { value: "11+", label: "Years experience" },
+  { value: "500K+", label: "Monthly users served" },
+  { value: "150+", label: "Countries on the Cenne platform" },
 ];
 
 export default function About() {
@@ -43,30 +46,13 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I've spent the last{" "}
-            <span className="text-foreground">7 years</span> building financial
-            platforms across{" "}
-            <span className="text-foreground">
-              payments, banking, lending, pensions, and crowdfunding
-            </span>{" "}
-            — and the systems behind commerce, agriculture, and public transport.
-            I've held the technical lead, from{" "}
-            <span className="text-foreground">CTO and VP of Engineering</span> to
-            Engineering Manager and Platform Lead.
+            I'm an engineering leader and AI infrastructure engineer with <span className="text-foreground">11+ years</span> building and scaling secure <span className="text-foreground">financial and public sector platforms</span> — from distributed APIs serving 500,000+ monthly users to a production LLM serving engine written in Rust.
           </p>
           <p>
-            I architect distributed microservices and the infrastructure that
-            keeps money moving. At Thrive Agric I led the payments and
-            crowdfunding platform that helped{" "}
-            <span className="text-foreground">100,000+ farmers</span> access
-            $100M+ in financing; at Payfrontier I built payment infrastructure
-            from the ground up to 20,000+ customers.
+            I've held <span className="text-foreground">VP of Engineering and Chief Engineer</span> roles, owning architecture, delivery and hiring across remote and onsite teams. I led engineering at Cenne Financial through its merger into ByteX, and now engineer ByteX's global payment and settlement infrastructure.
           </p>
           <p>
-            I care about backend discipline: enforcing API contracts, defining
-            clean domain boundaries, and preventing architectural drift through
-            structured design governance — while leading and mentoring
-            cross-functional teams across distributed settings.
+            I stay hands-on across <span className="text-foreground">Node.js, TypeScript, Java, Python and Rust</span>, with deep cloud infrastructure and DevOps experience — and I mentor engineers on architecture and distributed system design.
           </p>
         </motion.div>
 
