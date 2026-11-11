@@ -24,7 +24,7 @@ export default function Hero() {
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-75" />
           <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-brand" />
         </span>
-        Available for new opportunities · Senior Software Engineer
+        Available for new opportunities · Senior Backend Engineer · Kotlin & PHP
       </motion.div>
 
       {/* framed headline with + corners + radial mask */}
@@ -59,10 +59,10 @@ export default function Hero() {
         <span className="inline-flex items-center font-semibold text-foreground">
           <RotatingText
             words={[
-              "backend architect",
-              "systems engineer",
-              "platform builder",
-              "team lead",
+              "Kotlin engineer",
+              "PHP & Laravel engineer",
+              "payments engineer",
+              "backend engineer",
             ]}
           />
         </span>
@@ -74,9 +74,7 @@ export default function Hero() {
         transition={{ delay: 0.4 }}
         className="z-10 mx-auto mt-4 max-w-2xl px-6 text-sm text-muted-foreground md:text-base"
       >
-        7+ years architecting distributed microservices and platforms that have
-        served 5M+ monthly active users — across fintech, agritech, e-commerce,
-        and public transport.
+        11+ years building payment, settlement and financial platforms, now focused on Kotlin and PHP — Kotlin services on Spring Boot and Ktor, and PHP 8 and Laravel APIs.
       </motion.p>
 
       {/* CTAs */}
@@ -103,7 +101,7 @@ export default function Hero() {
           Get in touch
         </a>
         <a
-          href="/Paul-Azemoh-Resume.pdf"
+          href="/David-Azemoh-CV-Backend-Engineer-Kotlin-PHP.pdf"
           download
           className="group inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:bg-accent"
         >
