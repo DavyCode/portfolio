@@ -24,7 +24,7 @@ const SKILLS = [
   "CI/CD",
   "AI Inference",
   "Microservices",
-  "Domain-Driven Design",
+  "Domain Driven Design",
 ];
 
 const STATS = [
@@ -46,13 +46,13 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I'm an engineering leader and AI infrastructure engineer with <span className="text-foreground">11+ years</span> building and scaling secure <span className="text-foreground">financial and public sector platforms</span> — from distributed APIs serving 500,000+ monthly users to a production LLM serving engine written in Rust.
+            I'm an engineering leader and AI infrastructure engineer with <span className="text-foreground">11+ years</span> building and scaling secure <span className="text-foreground">financial and public sector platforms</span>, from distributed APIs serving 500,000+ monthly users to a production LLM serving engine written in Rust.
           </p>
           <p>
             I've held <span className="text-foreground">CTO, VP of Engineering and Chief Engineer</span> roles, owning architecture, delivery and hiring across remote and onsite teams. I led technology at Cenne Financial through its merger into ByteX, and now engineer ByteX's global payment and settlement infrastructure.
           </p>
           <p>
-            I stay hands-on across <span className="text-foreground">Node.js, TypeScript, Java, Python and Rust</span>, with deep cloud infrastructure and DevOps experience — and a record of aligning technical decisions with business growth.
+            I stay hands-on across <span className="text-foreground">Node.js, TypeScript, Java, Python and Rust</span>, with deep cloud infrastructure and DevOps experience, and a record of aligning technical decisions with business growth.
           </p>
         </motion.div>
 

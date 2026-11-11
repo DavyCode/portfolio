@@ -14,7 +14,7 @@ const PROJECTS: {
     title: "GradientFi",
     role: "Lead Software Engineer",
     description:
-      "Cross-border liquidity infrastructure for commerce. Built CentryOS — programmable financial infrastructure for marketplaces.",
+      "Cross-border liquidity infrastructure for commerce. Built CentryOS, programmable financial infrastructure for marketplaces.",
     tags: ["Infrastructure", "Cross-border", "Fintech"],
     href: "https://www.gradientfi.com/",
   },
@@ -30,7 +30,7 @@ const PROJECTS: {
     title: "Thrive Agric",
     role: "VP of Engineering",
     description:
-      "Payments & crowdfunding platform that helped 100,000+ farmers access $100M+ in financing — serving 500,000+ monthly users.",
+      "Payments & crowdfunding platform that helped 100,000+ farmers access $100M+ in financing, serving 500,000+ monthly users.",
     tags: ["Agritech", "Crowdfunding", "Scale"],
     href: "https://thriveagric.com/",
   },
@@ -45,7 +45,7 @@ const PROJECTS: {
     title: "NRC Ticketing",
     role: "VP of Engineering",
     description:
-      "The Nigerian Railway Corporation's e-ticketing platform for the Warri–Itakpe line — a national government project.",
+      "The Nigerian Railway Corporation's e-ticketing platform for the Warri–Itakpe line, a national government project.",
     tags: ["GovTech", "Ticketing", "Payments"],
     href: "https://nrc-fane.ng/",
   },
