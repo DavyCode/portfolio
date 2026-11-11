@@ -47,7 +47,7 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I'm a full stack engineer with <span className="text-foreground">11+ years</span> building secure, <span className="text-foreground">end-to-end web and mobile applications</span> across fintech, agritech and public sector platforms.
+            I'm a full stack engineer with <span className="text-foreground">11+ years</span> building secure, <span className="text-foreground">end to end web and mobile applications</span> across fintech, agritech and public sector platforms.
           </p>
           <p>
             I deliver across the whole stack: <span className="text-foreground">React.js and TypeScript</span> front ends, <span className="text-foreground">Node.js, Java and Python</span> services, PostgreSQL and MongoDB data layers, and cloud infrastructure on AWS and GCP shipped through CI/CD. Most recently I built a Python SDK and a Rust serving engine for private AI infrastructure.

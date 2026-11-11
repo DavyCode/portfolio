@@ -55,7 +55,7 @@ export default function Hero() {
         transition={{ delay: 0.3 }}
         className="z-10 mt-8 flex flex-wrap items-center justify-center gap-x-2 font-display text-xl md:text-2xl"
       >
-        <span className="text-muted-foreground">Hi, I'm Paul David Azemoh —</span>
+        <span className="text-muted-foreground">Hi, I'm Paul David Azemoh,</span>
         <span className="inline-flex items-center font-semibold text-foreground">
           <RotatingText
             words={[
@@ -74,7 +74,7 @@ export default function Hero() {
         transition={{ delay: 0.4 }}
         className="z-10 mx-auto mt-4 max-w-2xl px-6 text-sm text-muted-foreground md:text-base"
       >
-        11+ years building secure, end-to-end web and mobile applications across fintech, agritech and public sector platforms — React and TypeScript front ends to Node.js, Java and Python services.
+        11+ years building secure, end to end web and mobile applications across fintech, agritech and public sector platforms: React and TypeScript front ends to Node.js, Java and Python services.
       </motion.p>
 
       {/* CTAs */}
