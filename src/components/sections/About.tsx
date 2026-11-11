@@ -2,14 +2,20 @@ import { motion } from "framer-motion";
 import SectionHeading from "../SectionHeading";
 
 const SKILLS = [
-  "JavaScript",
-  "TypeScript",
-  "Java",
-  "Node.js",
-  "Express.js",
   "React.js",
   "Redux",
   "React Native",
+  "TypeScript",
+  "JavaScript",
+  "Tailwind",
+  "HTML5",
+  "CSS",
+  "Node.js",
+  "Express.js",
+  "Java",
+  "Spring Boot",
+  "Python",
+  "Django",
   "GraphQL",
   "PostgreSQL",
   "MongoDB",
@@ -18,16 +24,14 @@ const SKILLS = [
   "GCP",
   "Docker",
   "Kubernetes",
-  "Terraform",
   "CI/CD",
-  "Microservices",
-  "Domain-Driven Design",
+  "TDD",
 ];
 
 const STATS = [
-  { value: "7+", label: "Years experience" },
-  { value: "5M+", label: "Monthly active users served" },
-  { value: "$100M+", label: "Financing enabled at Thrive Agric" },
+  { value: "11+", label: "Years experience" },
+  { value: "500K+", label: "Monthly users served" },
+  { value: "20K+", label: "Active customers on Payfrontier" },
 ];
 
 export default function About() {
@@ -43,30 +47,13 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I've spent the last{" "}
-            <span className="text-foreground">7 years</span> building financial
-            platforms across{" "}
-            <span className="text-foreground">
-              payments, banking, lending, pensions, and crowdfunding
-            </span>{" "}
-            — and the systems behind commerce, agriculture, and public transport.
-            I've held the technical lead, from{" "}
-            <span className="text-foreground">CTO and VP of Engineering</span> to
-            Engineering Manager and Platform Lead.
+            I'm a full stack engineer with <span className="text-foreground">11+ years</span> building secure, <span className="text-foreground">end-to-end web and mobile applications</span> across fintech, agritech and public sector platforms.
           </p>
           <p>
-            I architect distributed microservices and the infrastructure that
-            keeps money moving. At Thrive Agric I led the payments and
-            crowdfunding platform that helped{" "}
-            <span className="text-foreground">100,000+ farmers</span> access
-            $100M+ in financing; at Payfrontier I built payment infrastructure
-            from the ground up to 20,000+ customers.
+            I deliver across the whole stack: <span className="text-foreground">React.js and TypeScript</span> front ends, <span className="text-foreground">Node.js, Java and Python</span> services, PostgreSQL and MongoDB data layers, and cloud infrastructure on AWS and GCP shipped through CI/CD. Most recently I built a Python SDK and a Rust serving engine for private AI infrastructure.
           </p>
           <p>
-            I care about backend discipline: enforcing API contracts, defining
-            clean domain boundaries, and preventing architectural drift through
-            structured design governance — while leading and mentoring
-            cross-functional teams across distributed settings.
+            I work comfortably in Agile teams, remote or onsite, and I mentor other engineers.
           </p>
         </motion.div>
 
