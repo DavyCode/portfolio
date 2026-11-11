@@ -25,7 +25,7 @@ const SKILLS = [
   "CI/CD",
   "TDD",
   "Microservices",
-  "Domain-Driven Design",
+  "Domain Driven Design",
 ];
 
 const STATS = [
@@ -47,7 +47,7 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I'm a backend engineer with <span className="text-foreground">11+ years</span> designing and running <span className="text-foreground">APIs, microservices and distributed systems</span> for fintech, agritech and public sector platforms — including services handling 500,000+ monthly users.
+            I'm a backend engineer with <span className="text-foreground">11+ years</span> designing and running <span className="text-foreground">APIs, microservices and distributed systems</span> for fintech, agritech and public sector platforms, including services handling 500,000+ monthly users.
           </p>
           <p>
             Today I build services for ByteX's global <span className="text-foreground">payment and settlement infrastructure</span>: cross-border collections, payouts, FX, routing and settlement across Canada, the United States, India and Africa. Most recently I also built a Rust LLM serving engine with continuous batching and prefix caching.
