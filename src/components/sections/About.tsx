@@ -27,7 +27,7 @@ const SKILLS = [
   "Kubernetes",
   "Terraform",
   "CI/CD",
-  "Domain-Driven Design",
+  "Domain Driven Design",
 ];
 
 const STATS = [
@@ -52,10 +52,10 @@ export default function About() {
             I'm a backend engineer with <span className="text-foreground">11+ years</span> building <span className="text-foreground">payment, settlement and financial platforms</span>, now focused on <span className="text-foreground">Kotlin and PHP</span>.
           </p>
           <p>
-            I design and run Kotlin services on Spring Boot and Ktor, using coroutines for high-throughput I/O, and build PHP 8 and Laravel APIs for product and back-office systems. At ByteX I build the Kotlin services behind cross-border collections, payouts, FX and settlement across Canada, the United States, India and Africa.
+            I design and run Kotlin services on Spring Boot and Ktor, using coroutines for high throughput I/O, and build PHP 8 and Laravel APIs for product and back office systems. At ByteX I build the Kotlin services behind cross-border collections, payouts, FX and settlement across Canada, the United States, India and Africa.
           </p>
           <p>
-            I work with PostgreSQL, MySQL, Redis and Kafka, deployed on AWS and GCP through Docker, Kubernetes and CI/CD — and I care about <span className="text-foreground">transaction integrity, reliability and clean service boundaries</span>.
+            I work with PostgreSQL, MySQL, Redis and Kafka, deployed on AWS and GCP through Docker, Kubernetes and CI/CD, and I care about <span className="text-foreground">transaction integrity, reliability and clean service boundaries</span>.
           </p>
         </motion.div>
 

@@ -88,7 +88,7 @@ export default function Contact() {
       </div>
 
       <p className="mt-12 text-center font-mono text-xs text-muted-foreground">
-        © 2026 Paul David Azemoh — built with React, Tailwind &amp; Framer Motion.
+        © 2026 Paul David Azemoh, built with React, Tailwind &amp; Framer Motion.
       </p>
     </section>
   );

@@ -5,7 +5,7 @@ const ROLES = [
   {
     company: "ByteX Financial (formerly Cenne Financial)",
     role: "Senior Software Engineer, ByteX; VP of Engineering, Cenne Financial",
-    period: "Apr 2026 — Present",
+    period: "Apr 2026 – Present",
     location: "Canada · Remote",
     points: [
       "Builds Kotlin and Spring Boot services for ByteX's global payment and settlement infrastructure: cross-border collections, payouts, FX, payment routing and settlement across Canada, the United States, India and Africa.",
@@ -16,7 +16,7 @@ const ROLES = [
   {
     company: "Oragonlabs",
     role: "Chief Engineer & AI Researcher",
-    period: "Jan 2026 — Mar 2026",
+    period: "Jan 2026 – Mar 2026",
     location: "Nigeria & USA",
     points: [
       "Led engineering and AI research at Oragonlabs, which builds private AI infrastructure that runs on the customer's own hardware.",
@@ -27,7 +27,7 @@ const ROLES = [
   {
     company: "Bullion",
     role: "Senior Software Engineer & VP of Engineering",
-    period: "Aug 2025 — Mar 2026",
+    period: "Aug 2025 – Mar 2026",
     location: "USA · Remote",
     points: [
       "Led development and architecture of high availability financial platform services in Kotlin and Spring Boot, optimised for performance, reliability and transaction integrity in production.",
@@ -38,7 +38,7 @@ const ROLES = [
   {
     company: "TeflonHub",
     role: "Lead Platform Engineer",
-    period: "Aug 2023 — Jul 2025",
+    period: "Aug 2023 – Jul 2025",
     location: "Lagos, Nigeria · Remote",
     points: [
       "Led design and development of core platform services in PHP (Laravel) and Kotlin across the full software development lifecycle, from technical design through deployment.",
@@ -50,7 +50,7 @@ const ROLES = [
   {
     company: "Payfrontier LTD",
     role: "Senior Developer / CTO",
-    period: "Jan 2020 — Jul 2023",
+    period: "Jan 2020 – Jul 2023",
     location: "Abuja, Nigeria · Remote & Onsite",
     points: [
       "Architected a fintech platform serving 20,000+ active customers across web and mobile channels.",
@@ -62,7 +62,7 @@ const ROLES = [
   {
     company: "Thrive Agric LTD",
     role: "Software Developer",
-    period: "Feb 2018 — Dec 2019",
+    period: "Feb 2018 – Dec 2019",
     location: "Abuja, Nigeria · Remote & Onsite",
     points: [
       "Led the migration of the legacy PHP/WordPress platform to Node.js microservices, powering crowdfunding and payment platforms servicing 500,000+ monthly users.",
@@ -74,7 +74,7 @@ const ROLES = [
   {
     company: "UNESCO",
     role: "Software Engineer & Program Manager",
-    period: "May 2016 — Jan 2018",
+    period: "May 2016 – Jan 2018",
     location: "Abuja, Nigeria · Onsite",
     points: [
       "Delivered structured software architecture training to 400+ youths in partnership with Microsoft and UNESCO.",
@@ -84,7 +84,7 @@ const ROLES = [
   {
     company: "Freelance",
     role: "Web Developer",
-    period: "Nov 2014 — Apr 2016",
+    period: "Nov 2014 – Apr 2016",
     location: "Remote",
     points: [
       "Built custom PHP and MySQL web applications for business clients based on their specifications.",
