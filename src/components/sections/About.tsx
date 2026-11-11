@@ -46,7 +46,7 @@ export default function About() {
           className="space-y-6 text-lg leading-relaxed text-muted-foreground md:col-span-3"
         >
           <p>
-            I'm a software engineer with <span className="text-foreground">11+ years</span> building and shipping <span className="text-foreground">secure, production software</span> across fintech, agritech and public sector platforms — from web and mobile applications to distributed backend services and AI infrastructure.
+            I'm a software engineer with <span className="text-foreground">11+ years</span> building and shipping <span className="text-foreground">secure, production software</span> across fintech, agritech and public sector platforms, from web and mobile applications to distributed backend services and AI infrastructure.
           </p>
           <p>
             I'm comfortable across <span className="text-foreground">Node.js, TypeScript, Java, Python and Rust</span>, with hands-on cloud, DevOps and database experience. Most recently I built a Python SDK and a Rust serving engine for private AI, handling 200,000 requests in 3.0 seconds.
